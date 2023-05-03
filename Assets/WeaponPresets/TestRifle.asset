@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86a01a841c2ab2348a75cf0a32dd60fa, type: 3}
+  m_Name: TestRifle
+  m_EditorClassIdentifier: 
+  weaponName: TestRifle
+  damage: 3
+  initialBulletSize: 0.5
+  bulletDistance: 10
+  bulletSpeed: 20
+  dh_damage: 7
+  dh_initialBulletSize: 1.5
+  dh_bulletDistance: 20
+  dh_bulletSpeed: 30
+  fireMode: 0
+  firePerSecond: 9.75
+  maxMagazineAmmo: 25
+  projectilesPerShoot: 1
+  timeToFullyReload: 2
+  reloadMode: 0
+  minFiringAngle: 1
+  maxFiringAngle: 25
+  angleIncrementPerShoot: 1
+  angleDecrement: 1
